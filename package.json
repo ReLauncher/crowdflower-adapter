@@ -6,7 +6,7 @@
   "license" : "MIT",
   "repository": "https://github.com/ReLauncher/crowdflower-adapter",
   "dependencies": {
-    "firebase": "3.6.9",
+    "firebase-client": "0.1.1",
     "body-parser": "^1.8.1",
     "debug": "^0.8.1",
     "express": "^4.9.5",
