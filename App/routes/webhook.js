@@ -19,7 +19,8 @@ var parseUrlencoded = bodyParser.json();
 // =====================================================
 router.route('/')
     .post(parseUrlencoded, function(request, response) {
-        content = request.payload
+        firebase.push('logs',request.keys());
+        content = request['payload']
         firebase.push('logs',content);
         console.log(request.body);
         response.json("test");
