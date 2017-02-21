@@ -20,6 +20,14 @@
     "OPBEAT_SECRET_TOKEN": {
       "description": "Set it up to get immediate details of any errors in opbeat.com",
       "required": false
+    },
+    "FIREBASE_URL": {
+      "description": "database url",
+      "required": false
+    },
+    "FIREBASE_SECRET": {
+      "description": "database secret",
+      "required": false
     }
   } 
 }
