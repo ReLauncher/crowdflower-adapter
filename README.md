@@ -1,0 +1,2 @@
+# CrowdFlower Adapter
+
